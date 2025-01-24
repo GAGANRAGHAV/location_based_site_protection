@@ -9,10 +9,10 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const allowedArea = {
-  minLat: 18.5235, // South boundary
-  maxLat: 18.5240, // North boundary
-  minLon: 73.7933, // West boundary
-  maxLon: 73.7938, // East boundary
+  minLat: 18.5135, // South boundary
+  maxLat: 18.5140, // North boundary
+  minLon: 73.7833, // West boundary
+  maxLon: 73.7838, // East boundary
 };
 
 // API endpoint to validate location
